@@ -686,6 +686,7 @@ h3.my-profession {
     line-height: 25px;
     color: var(--text-black-700);
     font-weight: 400;
+    margin-top: 15px;
 }
 
 .contact .contact-form {
