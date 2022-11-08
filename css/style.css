@@ -543,8 +543,8 @@ h3.my-profession {
 } 
 
 .service .service-item {
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
+    flex: 0 0 50%;
+    max-width: 50%;
     margin-bottom: 30px;
 }
 
@@ -653,14 +653,19 @@ h3.my-profession {
 }
 
 .contact .contact-info-item {
-    flex: 0 0 25%;
-    max-width: 25%;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
     text-align: center;
     margin-bottom: 60px;
 }
 
 .contact .contact-info-item .icon {
     display: inline-block;
+}
+
+.contact .contact-info-item .icon .fa-brands {
+    font-size: 25px;
+    color: var(--skin-color);
 }
 
 .contact .contact-info-item .icon .fa {
