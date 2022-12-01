@@ -127,6 +127,7 @@ body.light {
     background: var(--skin-color);
     transition: all 0.3s ease;
     font-family: "poppins", sans-serif;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -282,7 +283,7 @@ body.light {
 
 h3.hello {
     font-size: 28px;
-    margin: 15px 0;
+    margin-top: 15px;
 }
 
 h3.hello span {
@@ -294,7 +295,7 @@ h3.hello span {
 
 h3.my-profession {
     font-size: 30px;
-    margin: 15px 0;
+    margin-bottom: 15px;
 }
 
 .typing {
@@ -303,7 +304,8 @@ h3.my-profession {
 
 .home-info p {
     margin-bottom: 70px;
-    font-size: 20px;
+    margin-right: 110px;
+    font-size: 18px;
     color: var(--text-black-700);
 }
 
@@ -366,14 +368,18 @@ h3.my-profession {
 }
 
 .about .about-content .about-text p {
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
     color: var(--text-black-700);
+    margin-bottom: 15px;
+    
+    text-align: justify;
 }
 
 .about .about-content .personal-info {
-    flex: 0 0 60%;
-    max-width: 60%;
+    flex: 0 0 80%;
+    max-width: 80%;
     margin-top: 40px;
 }
 
@@ -405,6 +411,7 @@ h3.my-profession {
 
 .about .about-content .personal-info .buttons {
     margin-top: 30px;
+    margin-bottom: 100px;
 }
 
 .about .about-content .personal-info .buttons .btn {
@@ -619,8 +626,8 @@ h3.my-profession {
 }
 
 .portfolio .portfolio-item {
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
+    flex: 0 0 50%;
+    max-width: 50%;
     margin-bottom: 30px;
 }
 
