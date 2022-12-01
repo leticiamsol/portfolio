@@ -33,19 +33,19 @@ function setActiveStyle(color)
 
 /*---------------- THEME LIGHT AND DARK MODE ----------------*/
 
-const dayLight = document.querySelector(`.day-light`);
-dayLight.addEventListener(`click`, () => {
-    dayLight.querySelector(`i`).classList.toggle(`fa-moon`);
-    dayLight.querySelector(`i`).classList.toggle(`fa-sun`);
-    document.body.classList.toggle(`light`);
+const dayNight = document.querySelector(`.day-night`);
+dayNight.addEventListener(`click`, () => {
+    dayNight.querySelector(`i`).classList.toggle(`fa-sun`);
+    dayNight.querySelector(`i`).classList.toggle(`fa-moon`);
+    document.body.classList.toggle(`dark`);
 })
 window.addEventListener(`load`, () => {
-    if(document.body.classList.contains(`light`))
+    if(document.body.classList.contains(`dark`))
     {
-        dayLight.querySelector(`i`).classList.add(`fa-moon`);
+        dayNight.querySelector(`i`).classList.add(`fa-sun`);
     }
 
     else {
-        dayLight.querySelector(`i`).classList.add(`fa-sun`);
+        dayNight.querySelector(`i`).classList.add(`fa-moon`);
     }
 })
