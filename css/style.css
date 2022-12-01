@@ -763,9 +763,14 @@ h3.my-profession {
         max-width: 50%;
     }
     
+    .home-info .my-profession {
+        font-size: 24px;
+    }
+
     .home-info p {
         margin: 0;
         margin-bottom: 30px;
+        text-align: justify;
     }
 
     .home .home-info {
@@ -803,6 +808,10 @@ h3.my-profession {
         border-left: 10px solid var(--skin-color);
         left: -10px;
         top: -25px;
+    }
+
+    span {
+        color: white;
     }
 }
 
