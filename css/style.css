@@ -606,6 +606,7 @@ h3.my-profession {
     font-size: 15.5px;
     color: var(--text-black-700);
     line-height: 25px;
+    text-align: justify;
 }
 
 /*------------ PORTFOLIO ------------*/
