@@ -401,6 +401,7 @@ h3.my-profession {
     color: var(--text-black-700);
     margin-left: 4px;
     display: inline-block;
+    text-decoration: none;
 }
 
 .about .about-content .skills {
